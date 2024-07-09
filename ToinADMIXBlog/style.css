@@ -1,0 +1,334 @@
+@charset 'utf-8';
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    background: linear-gradient(315deg, #9034e155, #dcb9ff34);
+}
+h1{
+    font-size: 40px;
+    font-family: 'Ubuntu';
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+a{
+    color: #3e0d6ae6;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#tohome{
+    width: 8%;
+    margin: 0.5% auto auto 0.5%;
+    position: fixed;
+}
+#topimg{
+    width: 20%;
+    margin: 3% auto auto 40%;
+}
+.menu{
+    margin-top: -5%;
+    margin-left: -6%;
+    width: 25%;
+    position: fixed;
+    border:solid 1px #ffffff00;
+    border-radius: 50px;
+    background-color: #ffffffa7;
+    height: 80%;
+    overflow: scroll;
+}
+.menu::-webkit-scrollbar{
+    display: none;
+}
+.menu li{
+    margin-left: 30%;
+    margin-top: 5%;
+    position: relative;
+    font-size: 30px;
+    color: #9034e1e6;
+    font-family: 'Moon';
+    font-weight: bold;
+}
+#menutop{
+    margin-top: 10%;
+}
+.formenuborder{
+    border: solid 2px #5d08a893;
+    width: 60%;
+    border-radius: 50px;
+    margin: auto auto 3% 28%;
+}
+.menu a{
+    position: relative;
+    font-size: 20px;
+    color: #9034e1e6;
+}
+.menu a p{
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    margin: auto auto auto 30%;
+    background-color: #a66cd900;
+    width: 50%;
+    padding: 1% 1% 1% 3%;
+    border: solid 1px #ffffff00;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+    margin-bottom: 2%;
+    box-shadow:1.5px 0px 5px 1px #00000038;
+}
+.menu a p:hover{
+    background-color: #862fd33d;
+    transition: 0.3s;
+}
+.back{
+    position: absolute;
+    margin: 31% auto auto 91%;
+    z-index: 999;
+}
+.back img{
+    position :fixed;
+}
+#newest{
+    font-size: 45px;
+    margin: 1% auto auto 27%;
+    color: #6a0fb9e6;
+    font-family: 'Ubuntu';
+}
+.articles{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: solid 2px #a66cd900;
+    border-radius: 70px;
+    background-color: #a66cd900;
+    margin: 2% auto auto auto;
+    transition: 0.3s;
+    box-shadow:1px 1px 10px 3px #00000038;
+}
+.articles:hover{
+    background-color: #862fd347;
+    transition: 0.3s;
+    box-shadow:1px 1px 15px 1px #00000020;
+}
+.articles h1{
+    margin: 3% auto auto 7%;
+    font-size: 35px;
+}
+#tags{
+    margin-left: 8%;
+}
+.articles h2{
+    float: left;
+    font-size: 20px;
+    font-family: Ubuntu;
+    margin: auto 1% auto 0%;
+    background-color: #49117ae6;
+    color: white;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.articles p{
+    margin: 0% auto auto 70%;
+    font-family: 'Ubuntu';
+}
+.articles img{
+    border-radius: 10px;
+    width: 70%;
+    margin: 2% auto 3% 15%;
+    position: relative;
+}
+#forborder1{
+    border-top:solid 5px #5d08a893;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0.5%;
+}
+#forborder2{
+    border-top:solid 5px #5d08a893;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+#forblank{
+    margin-bottom: 80%;
+}
+.ending{
+    display: block;
+    margin: auto;
+    background-color: #761fc2e6;
+    height: 90px;
+    margin: 5% -0.4% -1% -0.5%;
+}
+.ending p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2%;
+}
+.x, .blog{
+    position: relative;
+}
+.x img{
+    position: absolute;
+    margin: 6% auto auto 94%;
+    width: 3%;
+}
+.xonhome img{
+    position: absolute;
+    margin: 1% auto auto 94%;
+    width: 3%;
+}
+.blog img{
+    position: absolute;
+    margin: 6% auto auto 89%;
+    width: 3%;
+}
+.blogonhome img{
+    position: absolute;
+    margin: 1% auto auto 89%;
+    width: 3%;
+}
+#black:hover{
+    display: none;
+}
+#fortitleborder{
+    border: solid 3px #5d08a893;
+    width: 40%;
+    margin: 2% auto 2% 30%;
+    border-radius: 30px;
+}
+#title{
+    color: #6a0fb9e6;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    padding: 0%;
+    font-family: 'Ubuntu';
+}
+#date{
+    font-size: 25px;
+    font-family: 'Moon';
+    margin: auto auto auto 60%;
+    color: #3e0d6ae6;
+}
+.tags{
+    margin: auto auto auto 30%;
+}
+.tags h2{
+    float: left;
+    font-size: 20px;
+    font-family: Ubuntu;
+    margin: auto 1% auto 0%;
+    background-color: #9034e1e6;
+    color: white;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.imginarticles{
+    width: 50%;
+    margin: 2% auto auto 25%;
+    border:solid 5px #5d08a893;
+    border-radius: 70px;
+}
+.contents h2{
+    color: #000000;
+    margin: 10% auto 3% 25%;
+    border-bottom: solid 3px #5d08a893;
+    border-left: solid 13px #5d08a893;
+    width: 50%;
+}
+.contents p{
+    color: #000000;
+    margin: 0% auto 3% 28%;
+    width: 44%;
+    font-family: 'Ubuntu';
+    line-height: 175%;
+}
+.contents a{
+    color: #5d08a893;
+    transition: 0.3s;
+}
+.contents a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+@media screen and (max-width: 1000px) {
+    #tohome{
+        width: 15%;
+        margin: -7% auto auto 0%;
+        position: fuxed;
+    }
+    #topimg{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    #newest{
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+    .articles{
+        width: 70%;
+    }
+    #forborder1, #forborder2{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .ending p{
+        font-size: 25px;
+        padding-top: 3%;
+    }
+    .x img{
+        width: 8%;
+        margin: 6% auto auto 87%;
+    }
+    .blog img{
+        width: 8%;
+        margin: 6% auto auto 76%;
+    }
+    .xonhome img{
+        margin: 1% auto auto 87%;
+        width: 8%;
+    }
+    .blogonhome img{
+        position: absolute;
+        margin: 1% auto auto 76%;
+        width: 8%;
+    }
+    #title{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #fortitleborder{
+        width: 50%;
+        margin: 2% auto 2% 25%;
+    }
+    .imginarticles{
+        width: 70%;
+        margin: 5% auto auto 15%;
+    }
+    .contents h2{
+        font-size: 40px;
+        width: 70%;
+        margin: 10% auto 3% 15%;
+    }
+    .contents p{
+        width: 64%;
+        margin: 5% auto 3% 18%;
+        font-size: 30px;
+    }
+    body{
+        margin-top: 10%;
+    }
+}
