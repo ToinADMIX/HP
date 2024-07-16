@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sample</title>
+    <link rel="shortcut icon" href="../img/ToinADMIXBlog_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Carrois+Gothic+SC&family=DM+Serif+Display&family=Gothic+A1:wght@800&family=Josefin+Slab:wght@700&family=League+Gothic&family=Montserrat:ital@1&family=Nanum+Gothic:wght@800&family=Noto+Sans+JP:wght@600&family=Roboto+Slab:wght@200&family=Tilt+Neon&family=Titan+One&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+    <body style="background-color:rgba(120, 165, 255, 0.217)">
+        <a href="../index.html"><img src="../img/ToinADMIXBlog_home.png" width="100%" id="tohome"></a>
+        <img src="../img/ToinADMIXBlog_home.png" width="100%" id="topimg">
+        <div id="fortitleborder"></div>
+        <h1 id="title">JLCPCB様に基板を歯注する方法</h1>
+        <div id="fortitleborder"></div>
+        <div class="tags">
+            <h2>Hard</h2>
+            <h2>Soft</h2>
+            <h2>Others</h2>
+        </div>
+        <p id="date">[ 日付 | 書いた人 ]</p>
+        <img src="画像リンク" width="100%" class="imginarticles">
+        <div class="contents">
+            <!--ここから↓
+            <h2>　見出し</h2>
+            <p>
+                記事
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            ここまでコピーして一つの話題-->
+            <h2>　まえがき</h2>
+            <p>
+                私達ToinADMIXは、今年からJPCPCB様にスポンサーになっていただき、使用する基板制作や部品実装などの点でご支援いただいています。
+                今回はKiCadで回路・基板設計をし、JLCPCB様に発注する手順を4ステップに分けて解説していきます。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　下準備</h2>
+            <p>
+                まずはkiCadをダウンロードします。
+
+                次にファイルを保存するフォルダを作ります。
+                特に決まった場所がなければデスクトップに作るのが良いでしょう。
+
+                次にJLCPCBのホームページに行き、アカウントを制作します。
+            </p>
+            <h2>　回路設計</h2>
+            <p>
+                KiCadを開き、新規ファイルを先ほど作成したフォルダに作ります。
+                回路図エディターを開き、回路図を書きます。
+                書き終わったら、エレクトリカルルールチェッカーを行い、エラーがなければ、フットプリントの割り当てを行います。
+                全て割り当てたら、回路図は完成です。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　発注</h2>
+            <p>
+                Fabrication Toolkitをダウンロードし、ガーバーファイルを制作します。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　基板設計</h2>
+            <p>
+                PCBエディターを開き、PCBを更新します。
+                部品が出てきたら、基板外形を設計、またはインポートし、基板を配置していきます。
+                配置し終わったら、配線をします。
+                全て配線し終わったら、デザインルールチェッカーを行い、問題がなければ基板も完成です。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+        </div>
+        <div class="snslinks">
+            <div class="x">
+                <a href="https://twitter.com/AdmixToin476"><img src="../../ToinADMIXHomePage/X_logo.png" width="100%" id="white" z-index="1"></a>
+                <a href="https://twitter.com/AdmixToin476"><img src="../../ToinADMIXHomePage/X_logo_white.png" width="100%" id="black"></a>
+            </div>
+            <div class="blog">
+                <a href="../../ToinADMIXHomePage/Home/index.html"><img src="../../ToinADMIXBlog/img/ToinADMIXHomePage_iconwithletters_black.png" width="100%" id="white" z-index="1"></a>
+                <a href="../../ToinADMIXHomePage/Home/index.html"><img src="../../ToinADMIXBlog/img/ToinADMIXHomePage_iconwithletters_white.png" width="100%" id="black"></a>
+            </div>
+        </div>
+        <div class="ending">
+            <p>© 2023 AU - Toin ADMIX</p>
+        </div>
+    </body>
+</html>

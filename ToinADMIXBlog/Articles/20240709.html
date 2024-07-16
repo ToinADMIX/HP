@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Sample</title>
+    <title>JLCPCB様に基板を発注させていただきました！</title>
     <link rel="shortcut icon" href="../img/ToinADMIXBlog_icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +13,14 @@
         <a href="../index.html"><img src="../img/ToinADMIXBlog_home.png" width="100%" id="tohome"></a>
         <img src="../img/ToinADMIXBlog_home.png" width="100%" id="topimg">
         <div id="fortitleborder"></div>
-        <h1 id="title">タイトル</h1>
+        <h1 id="title">JLCPCB様に<br>基板を発注させていただきました！</h1>
         <div id="fortitleborder"></div>
         <div class="tags">
-            <h2>Hard</h2>
-            <h2>Soft</h2>
+            <!-- <h2>Hard</h2>
+            <h2>Soft</h2> -->
             <h2>Others</h2>
         </div>
-        <p id="date">[ 日付 | 書いた人 ]</p>
+        <p id="date">[ 2024/07/13 | AU ]</p>
         <img src="画像リンク" width="100%" class="imginarticles">
         <div class="contents">
             <!--ここから↓
@@ -30,6 +30,51 @@
             </p>
             <img src="画像リンク" width="100%" class="imginarticles">
             ここまでコピーして一つの話題-->
+            <h2>　JLCPCB様について</h2>
+            <p>
+                この度、私達ToinADMIXは、市販の基板から自作基板へと切り替えていくために、基板の製作、実装を非常に安い値段で行っていただけるJLCPCB様にスポンサーになっていただくことになりました！
+                <br><br>その詳しい手順や発注の仕方については、<a href="#">こちらの記事</a>をご覧ください。
+                KiCadで回路設計をする段階から発注するまでの手順を解説しています。
+                ここからは今回の基板を紹介していきます。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　メイン基板</h2>
+            <p>
+                メインマイコンとして使うTeensyと他のマイコン、センサなどを接続するための基板です。
+                ボールセンサ基板、UI基板とはUART、カメラなどとはI2C、タッチディスプレイとはSPIで通信する予定です。
+                他のピンは余ったのでとりあえず出しておいただけです。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　ボールセンサ基板</h2>
+            <p>
+                サブマイコンにArduino Mega 2560 Pro Miniを採用し、16個のボールセンサの値(TSSP58038)をアナログで、ラインセンサの値をデジタルで読み、メインマイコンに送ります。
+                本当はラインセンサ基板にマイコンを積みたかったのですが、初めてマイコン基板を作るということで難易度の問題で断念しました。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　ラインセンサ基板</h2>
+            <p>
+                32個の円形ラインセンサと、センサ7個で1セットを前後左右に配置し、合計36個分のデータをコンパレータを通しデジタル値でサブマイコンに送っています。
+                去年のロボットはラインアウトが多すぎるのが課題だったので、今年は二重にラインセンサを配置しラインアウトしないロボットを目指しています。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　電源基板</h2>
+            <p>
+                メイン、ボールセンサ、モーター用の電源を生成しています。
+                作動する電圧がTeensyは3.3V、Arduino Megaは5Vなので、入力電圧をDCDCコンバーターでまず5Vに降圧し、次にその5Vを3.3Vに二段階で降圧しています。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　モータードライバ基板</h2>
+            <p>
+                Teensyからの信号を受け取りモーターを動かしています。ドライバー1つで1つのモーターを動かせるので、1つの基板に4つ載せています。
+                使おうとしているモーターの定格の都合上、DRVはさいようしませんでした。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
+            <h2>　スイッチ基板</h2>
+            <p>
+                電源基板に電源を入力するか、モーターに電流を流すか、を切り替えるための基板です。
+                大電流が流れることが予想されるので、全てベタでPCB設計しました。
+            </p>
+            <img src="画像リンク" width="100%" class="imginarticles">
         </div>
         <div class="snslinks">
             <div class="x">
