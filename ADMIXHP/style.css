@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;/*1rem=10px*/
+    font-family: "Ubuntu";
+}
+h1{
+    margin: 0;
+    font-family: "Ubuntu";
+    font-weight: bolder;
+    font-size: 5rem;
+}
+p{
+    margin: 0;
+    font-size: 2rem;
+    font-family: Serif;
+    line-height: 2.5;
+}
+#tohome img{
+    width: 3%;
+    margin: 1% auto auto 1%;
+    position: fixed;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    margin-top: 2%;
+}
+.menu a p{
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Moon";
+    transition: 0.3s;
+    line-height: 1;
+}
+.menu a p:hover{
+    color: #fe2323d5;
+}
+.elements{
+    height: 100%;
+    margin: -0.4% -0.44% -0.6% -0.44%;/*謎の余白消す*/
+}
+.elements h1{
+    padding-top: 7%;
+    margin-left: 8%;
+    color: #ffffff;
+}
+.elements p{
+    color: #fff;
+    padding-top: 2%;
+    margin-left: 9%;
+    width: 25%;
+}
+#home1{
+    background-image: url("../img/admix_2.png");
+    background-size: cover;
+}
+#home2{
+    background-image: url("../img/admix_2_lowhalf.png");
+    background-size: cover;
+}
+#home3{
+    background-image: url("../img/MyRobots.png");
+    background-size: cover;
+}
+#bottom{
+    margin: -0.4%;
+    background-color: #7d7d7d;
+    color: #efefef;
+    height: 10%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2rem;
+    font-family: Serif;
+}
