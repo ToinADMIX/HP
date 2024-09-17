@@ -72,7 +72,7 @@ p{
     width: 25%;
 }
 #home1{
-    background-image: url("../img/admix_2.png");
+    background-image: url("./img/admix_2.png");
     background-size: cover;
     z-index: 100;
 }
