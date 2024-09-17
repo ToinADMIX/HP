@@ -18,15 +18,13 @@ p{
     font-family: Serif;
     line-height: 2.5;
 }
-#tohome img{
-    width: 3%;
-    margin: 1% auto auto 1%;
-    position: fixed;
-}
 .menu{
     position: fixed;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
+    background-color: #000000a7;
+    padding: 2%;
+    margin-left: -1%;
 }
 .menu a p{
     float: left;
@@ -41,12 +39,29 @@ p{
 .menu a p:hover{
     color: #fe2323d5;
 }
+#thispage{
+    color: #fe2323d5;
+}
+#thispage:hover{
+    color: #fff;
+}
+#langbutton{
+    width: 3%;
+    position: fixed;
+    margin: 6% auto auto 100%;
+    border-color: #ffffff00;
+}
+#japan{
+    margin-left: -250%;
+    margin-right: 10%;
+}
+
 .elements{
     height: 100%;
     margin: -0.4% -0.44% -0.6% -0.44%;/*謎の余白消す*/
 }
 .elements h1{
-    padding-top: 7%;
+    padding-top: 8%;
     margin-left: 8%;
     color: #ffffff;
 }
@@ -59,22 +74,99 @@ p{
 #home1{
     background-image: url("../img/admix_2.png");
     background-size: cover;
+    z-index: 100;
 }
 #home2{
-    background-image: url("../img/admix_2_lowhalf.png");
+    background-image: url("../img/ADMIX_Toinnode1.jpg");
     background-size: cover;
+    z-index: 100;
 }
 #home3{
-    background-image: url("../img/MyRobots.png");
+    background-image: url("../img/redtoblackwhite.JPG");
     background-size: cover;
+    z-index: 100;
+}
+#history1{
+    background-image: url("../img/historyoftoinadmix.JPG");
+    background-size: cover;
+    z-index: 100;
+}
+#history2{
+    background-image: url("../img/DSC_0443~2.JPG");
+    background-size: cover;
+    z-index: 100;
+}
+#history3{
+    background-image: url("../img/kansai_robot.jpg");
+    background-size: cover;
+    z-index: 100;
+}
+#history4{
+    background-image: url("../img/DSC_1941.JPG");
+    background-size: cover;
+    z-index: 100;
+}
+#hard1{
+    background-image: url("../img/MyRobots_front.png");
+    background-size: cover;
+    z-index: 100;
+}
+#hard2{
+    background-image: url("../img/GUSWt6tbgAAeh-E.jpg");
+    background-size: cover;
+    z-index: 100;
+}
+#hard3{
+    background-image: url("../img/makingrobots.JPG");
+    background-size: cover;
+    z-index: 100;
+}
+#soft1{
+    background-image: url("../img/admix_2.png");
+    background-size: cover;
+    z-index: 100;
+}
+#soft2{
+    background-image: url("../img/ADMIX_Toinnode1.jpg");
+    background-size: cover;
+    z-index: 100;
+}
+#soft3{
+    background-image: url("../img/makingrobots.JPG");
+    background-size: cover;
+    z-index: 100;
+}#links1{
+    background-image: url("../img/admix_2.png");
+    background-size: cover;
+    z-index: 100;
+}
+#links2{
+    background-image: url("../img/ADMIX_Toinnode1.jpg");
+    background-size: cover;
+    z-index: 100;
+}
+#links3{
+    background-image: url("../img/makingrobots.JPG");
+    background-size: cover;
+    z-index: 100;
 }
 #bottom{
     margin: -0.4%;
-    background-color: #7d7d7d;
+    background-color: #000000;
     color: #efefef;
     height: 10%;
     text-align: center;
     padding-top: 3%;
     font-size: 2rem;
     font-family: Serif;
+}
+#bottom img{
+    position: relative;
+    width: 2%;
+    margin-top: -5%;
+    margin-bottom: 1.5%;
+    margin-right: 2%;
+}
+#x{
+    margin-left: 75%;
 }
