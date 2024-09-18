@@ -70,9 +70,10 @@ p{
     padding-top: 2%;
     margin-left: 9%;
     width: 25%;
+    font-weight: bold;
 }
 #home1{
-    background-image: url("./img/admix_2.png");
+    background-image: url("./img/admix_2_Fdribbler.png");
     background-size: cover;
     z-index: 100;
 }
@@ -122,31 +123,22 @@ p{
     z-index: 100;
 }
 #soft1{
-    background-image: url("./img/admix_2.png");
+    background-image: url("./img/DSC_14211.JPG");
     background-size: cover;
     z-index: 100;
 }
 #soft2{
-    background-image: url("./img/ADMIX_Toinnode1.jpg");
+    background-image: url("./img/robotinthedark.JPG");
     background-size: cover;
     z-index: 100;
 }
-#soft3{
-    background-image: url("./img/makingrobots.JPG");
-    background-size: cover;
-    z-index: 100;
-}#links1{
-    background-image: url("./img/admix_2.png");
+#links1{
+    background-image: url("./img/DSC_1404.JPG");
     background-size: cover;
     z-index: 100;
 }
 #links2{
-    background-image: url("./img/ADMIX_Toinnode1.jpg");
-    background-size: cover;
-    z-index: 100;
-}
-#links3{
-    background-image: url("./img/makingrobots.JPG");
+    background-image: url("./img/DSC_1377.JPG");
     background-size: cover;
     z-index: 100;
 }
