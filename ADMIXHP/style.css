@@ -22,7 +22,7 @@ p{
     position: fixed;
     width: 100%;
     margin-top: 0%;
-    background-color: #000000a7;
+    background-color: #000000;
     padding: 2%;
     margin-left: -1%;
 }
@@ -71,6 +71,12 @@ p{
     margin-left: 9%;
     width: 25%;
     font-weight: bold;
+}
+#bgcolor{
+    background: linear-gradient(90deg, #00000096, #ffffff00);
+    background-size: cover;
+    z-index: 110;
+    height: 100%;
 }
 #home1{
     background-image: url("./img/admix_2_Fdribbler.png");
