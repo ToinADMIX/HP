@@ -1,10 +1,13 @@
 @charset "utf-8";
 
 html{
-    margin: 0;
-    padding: 0;
     font-size: 62.5%;/*1rem=10px*/
     font-family: "Ubuntu";
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 h1{
     margin: 0;
@@ -45,20 +48,24 @@ p{
 #thispage:hover{
     color: #fff;
 }
-#langbutton{
+.langbutton{
     width: 3%;
     position: fixed;
-    margin: 6% auto auto 100%;
-    border-color: #ffffff00;
+    margin: 5% auto auto 100%;
+}
+.langbutton p{
+    width: 15rem;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto auto auto -250%;
+    font-family: Serif;
+    font-weight: lighter;
+    background-color: #000000ac;
 }
 #japan{
-    margin-left: -250%;
+    margin-left: -220%;
     margin-right: 10%;
-}
-
-.elements{
-    height: 100%;
-    margin: -0.4% -0.44% -0.6% -0.44%;/*謎の余白消す*/
 }
 .elements h1{
     padding-top: 8%;
@@ -72,6 +79,9 @@ p{
     width: 25%;
     font-weight: bold;
 }
+#arrow{
+    margin: 0 auto auto 10%;
+}
 #bgcolor{
     background: linear-gradient(90deg, #00000096, #ffffff00);
     background-size: cover;
@@ -79,10 +89,15 @@ p{
     height: 100%;
 }
 #home1{
+    margin: 0;
     background-image: url("./img/admix_2_Fdribbler.png");
     background-size: cover;
     z-index: 100;
 }
+#home1p, #home2p, #home3p, #history1p, #history2p, #history3p, #history4p, #hard1p, #hard2p, #hard3p, #soft1p, #soft2p, #links1p, #links2p{
+    height: 55%;
+}
+
 #home2{
     background-image: url("./img/ADMIX_Toinnode1.jpg");
     background-size: cover;
@@ -148,24 +163,30 @@ p{
     background-size: cover;
     z-index: 100;
 }
+#sns img{
+    position: fixed;
+    width: 4rem;
+    margin-left: 96%;
+}
+#x{
+    bottom: 36rem;
+}
+#youtube{
+    bottom: 28rem
+}
+#note{
+    bottom: 20rem;
+}
+#github{
+    bottom: 12rem;
+}
 #bottom{
-    margin: -0.4%;
     background-color: #000000;
     color: #efefef;
-    height: 10%;
+    height: 6rem;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 2rem;
     font-size: 2rem;
     font-family: Serif;
     font-weight: bold;
-}
-#bottom img{
-    position: relative;
-    width: 2%;
-    margin-top: -5%;
-    margin-bottom: 1.5%;
-    margin-right: 2%;
-}
-#x{
-    margin-left: 75%;
 }

@@ -11,13 +11,14 @@
     <body style="background-color:#ffffff;">
         <header class="menu" style="z-index:101;">
             <a href="../home"><p id="thispage">HOME</p></a>
-            <a href="../history"><p>HISTORY</p></a>
-            <a href="../hard"><p>HARD</p></a>
-            <a href="../soft"><p>SOFT</p></a>
-            <a href="../links"><p>LINKS</p></a>
+            <a href="../history"><p id="history">HISTORY</p></a>
+            <a href="../hard"><p id="hard">HARD</p></a>
+            <a href="../soft"><p id="soft">SOFT</p></a>
+            <a href="../links"><p id="links">LINKS</p></a>
         </header>
 
-        <div id="langbutton">
+        <div class="langbutton">
+            <p id="langbuttonp">Language</p>
             <img src="../img/japan_icon.png" width="100%" onclick="langjahome()" id="japan">
             <img src="../img/USA_icon.png" width="100%" onclick="langenhome()">
             <script src="../script.js"></script>
@@ -31,6 +32,7 @@
                         Toin ADMIX is a team which is participating in<br>RCJ Soccer Lightweight league.<br>
                         Its goal is to get the 1st prize in the world cup.
                     </p>
+                    <a href="#home2" id="arrow"><img src="../img/arrow1.png" width="5%"></a>
                 </div>
             </section>
             <section class="elements" class="home" id="home2">
@@ -39,6 +41,7 @@
                     <p id="home2p">
                         3 high school students are consisting Toin ADMIX.<br>
                     </p>
+                    <a href="#home3" id="arrow"><img src="../img/arrow1.png" width="5%"></a>
                 </div>
             </section>
             <section class="elements" class="home" id="home3">
@@ -47,16 +50,19 @@
                     <p id="home3p">
                         We divide roles to designing, implemantation, and programming.
                     </p>
+                    <a href="#home1"><img src="../img/arrow2.png" width="5%" id="arrow"></a>
                 </div>
             </section>
         </div>
 
+        <div id="sns">
+            <a href="https://x.com/AdmixToin476"><img src="../img/x_icon_white.png" width="100%" id="x"></a>
+            <a href="https://www.youtube.com/@ToinADMIX"><img src="../img/youtube_icon_white.png" width="100%" id="youtube"></a>
+            <a href="https://note.com/admix_toin/"><img src="../img/note_icon.jpg" width="100%" id="note"></a>
+            <a href="https://github.com/ToinADMIX/ADMIXData"><img src="../img/github_icon_white.png" width="100%" id="github"></a>
+        </div>
         <footer id="bottom">
             <p>© 2024 Toin ADMIX</p>
-            <a href="https://x.com/AdmixToin476"><img src="../img/x_icon_white.png" width="100%" id="x"></a>
-            <a href="https://www.youtube.com/@ToinADMIX"><img src="../img/youtube_icon_white.png" width="100%"></a>
-            <a href="https://note.com/admix_toin/"><img src="../img/note_icon_white.jpg" width="100%"></a>
-            <a href="https://github.com/ToinADMIX/ADMIXData"><img src="../img/github_icon_white.png" width="100%"></a>
         </footer>
     </body>
 </html>

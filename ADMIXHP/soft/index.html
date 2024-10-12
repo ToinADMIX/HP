@@ -16,17 +16,21 @@
             <a href="../soft"><p id="thispage">SOFT</p></a>
             <a href="../links"><p>LINKS</p></a>
         </header>
-        <div id="langbutton">
+
+        <div class="langbutton">
+            <p id="langbuttonp">Language</p>
             <img src="../img/japan_icon.png" width="100%" onclick="langjasoft()" id="japan">
             <img src="../img/USA_icon.png" width="100%" onclick="langensoft()">
             <script src="../script.js"></script>
         </div>
+
         <div class="elements" class="soft" id="soft1">
             <div id="bgcolor">
                 <h1 id="soft1h1">Programming</h1>
                 <p id="soft1p">
                     We use Arduino IDE and C-Style for TJ3B<br>to write and download programs.
                 </p>
+                <a href="#soft2" id="arrow"><img src="../img/arrow1.png" width="5%"></a>
             </div>
         </div>
         <div class="elements" class="soft" id="soft2">
@@ -35,14 +39,18 @@
                 <p id="soft2p">
                     When one member finish coding, another one check it to reduce bugs and make it better.
                 </p>
+                <a href="#soft1" id="arrow"><img src="../img/arrow2.png" width="5%"></a>
             </div>
         </div>
-        <div id="bottom">
-            <p>© 2024 Toin ADMIX</p>
+
+        <div id="sns">
             <a href="https://x.com/AdmixToin476"><img src="../img/x_icon_white.png" width="100%" id="x"></a>
-            <a href="https://www.youtube.com/@ToinADMIX"><img src="../img/youtube_icon_white.png" width="100%"></a>
-            <a href="https://note.com/admix_toin/"><img src="../img/note_icon_white.jpg" width="100%"></a>
-            <a href="https://github.com/ToinADMIX/ADMIXData"><img src="../img/github_icon_white.png" width="100%"></a>
+            <a href="https://www.youtube.com/@ToinADMIX"><img src="../img/youtube_icon_white.png" width="100%" id="youtube"></a>
+            <a href="https://note.com/admix_toin/"><img src="../img/note_icon.jpg" width="100%" id="note"></a>
+            <a href="https://github.com/ToinADMIX/ADMIXData"><img src="../img/github_icon_white.png" width="100%" id="github"></a>
         </div>
+        <footer id="bottom">
+            <p>© 2024 Toin ADMIX</p>
+        </footer>
     </body>
 </html>
