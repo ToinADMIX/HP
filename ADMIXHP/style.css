@@ -90,7 +90,7 @@ p{
 }
 #home1{
     margin: 0;
-    background-image: url("./img/admix_2_Fdribbler.png");
+    background-image: url("./img/admix_2_blackred.png");
     background-size: cover;
     z-index: 100;
 }
@@ -129,7 +129,7 @@ p{
     z-index: 100;
 }
 #hard1{
-    background-image: url("./img/MyRobots_front.png");
+    background-image: url("./img/MyRobots3.png");
     background-size: cover;
     z-index: 100;
 }
