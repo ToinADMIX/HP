@@ -382,7 +382,7 @@ a{
         background-color: var(--color5);
         border: solid 0.3rem var(--color2);
         transition: 0.3s;
-        margin: -100% auto auto 10%;
+        margin: -90% auto auto 10%;
     }
 
     /* arrow to scroll */
