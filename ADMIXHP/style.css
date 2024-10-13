@@ -102,7 +102,7 @@ a{
 /* for phone */
 /* menu bar */
 @media screen and (max-width: 1000px) {
-    .menu, .langbutton{
+    .menu, .langbutton p{
         display: none;
     }
     #tohome{
@@ -201,6 +201,18 @@ a{
         width: 100%;
         font-family: "Moon";
         font-weight: normal;
+    }
+    .langbutton img{
+        position: fixed;
+        width: 10rem;
+    }
+    #japan{
+        margin-top: 10%;
+        margin-left: -18%;
+    }
+    #USA{
+        margin-top: 20%;
+        margin-left: -18%;
     }
 }
 
