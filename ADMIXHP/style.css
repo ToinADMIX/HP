@@ -259,10 +259,12 @@ a{
         margin-top: 20rem;
         width: 15rem;
     }
-    #arrow img:hover, #arrowup img:hover{
+    #arrow img:hover{
         padding-top: 0rem;
     }
-
+    #arrowup img:hover{
+        margin-top: 20rem;/*i dont know why but this prevents 'arroup' from jumping up*/
+    }
     #home1{
         margin: 0;
         background-image: url("./img/admix_2_blackred2_P.png");
