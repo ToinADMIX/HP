@@ -5,8 +5,8 @@ html{
     font-size: 62.5%;/*1rem=10px*/
     font-family: "Ubuntu";
     scroll-behavior: smooth;
-    --color1: #000000;/*black*/
-    --color2: #fff;/*white*/
+    --color1: #111111;/*black*/
+    --color2: #eeeeee;/*white*/
     --color3:#fe2323d5;/*red*/
     --color4:#ad1390;/*admix*/
     --color5:#00000096;/*black for background*/
