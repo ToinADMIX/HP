@@ -44,7 +44,7 @@ a{
 /* for PC */
 /* menu bar */
 @media screen and (min-width: 1000px) {
-    .open, #g-nav{
+    .open, #g-nav, #tohome{
         display:none;
     }
 }
@@ -100,8 +100,8 @@ a{
 }
 
 /* for phone */
+/* menu bar */
 @media screen and (max-width: 1000px) {
-    /* menu bar */
     .menu, .langbutton{
         display: none;
     }
