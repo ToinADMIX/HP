@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* settings */
 html{
     font-size: 62.5%;/*1rem=10px*/
     font-family: "Ubuntu";
@@ -30,25 +31,17 @@ p{
 a{
     text-decoration: none;
 }
-/* .progBar{
-    width:400px;
-    height:50px;
-    background-color: var(--color2);
-    position:relative;
-    border-radius:0px;
-    overflow: hidden;
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 7rem;
+    }
+    p{
+        font-size: 3rem;
+        line-height: 7rem;
+    }
 }
-.progBar .bar{
-    position:absolute;
-    height:100%;
-    background-color: var(--color3);
-    animation: progress 3s normal;
-    animation-fill-mode: forwards;
-}
-@keyframes progress {
-    0% {width: 0}
-    100% {width: 100%}
-} */
+
+/* menu bar */
 .menu{
     position: fixed;
     width: 100%;
@@ -97,6 +90,8 @@ a{
     margin-left: -220%;
     margin-right: 10%;
 }
+
+/* contents */
 .elements h1{
     padding-top: 8%;
     margin-left: 8%;
@@ -110,6 +105,7 @@ a{
     width: 25%;
     font-weight: normal;
 }
+
 #linkbutton{
     position: absolute;
     padding: 2rem;
@@ -118,7 +114,7 @@ a{
     background-color: var(--color5);
     border: solid 0.3rem var(--color2);
     transition: 0.3s;
-    margin: -35% auto auto 80%;
+    margin: -35% auto auto 75%;
 }
 #linkbutton p{
     font-family: Serif;
@@ -133,6 +129,7 @@ a{
     padding-left: 2.5rem;
     transition: 0.3s;
 }
+
 #arrow{
     margin: auto auto auto 15rem;
     height: 1rem;
@@ -148,22 +145,23 @@ a{
     margin-top: -2rem;
     transition: 0.3s;
 }
+
 #bgcolor{
     background: linear-gradient(90deg, var(--color5), var(--color6));
     background-size: cover;
     z-index: 110;
     height: 100%;
 }
-#home1{
-    margin: 0;
-    background-image: url("./img/admix_2_blackred.png");
-    background-size: cover;
-    z-index: 100;
-}
+
 #home1p, #home2p, #home3p, #history1p, #history2p, #history3p, #history4p, #hard1p, #hard2p, #hard3p, #soft1p, #soft2p, #links1p, #links2p{
     height: 55%;
 }
-
+#home1{
+    margin: 0;
+    background-image: url("./img/admix_2_blackred2.png");
+    background-size: cover;
+    z-index: 100;
+}
 #home2{
     background-image: url("./img/ADMIX_Toinnode1.jpg");
     background-size: cover;
@@ -229,6 +227,114 @@ a{
     background-size: cover;
     z-index: 100;
 }
+@media screen and (max-width: 1000px) {
+    .elements h1{
+        padding-top: 20%;
+        margin-left:10%;
+    }
+    .elements p{
+        padding-top: 5%;
+        margin-left: 13%;
+        width: 50%;
+    }
+
+    #linkbutton{
+        margin: -100% auto auto 10%;
+        padding: 1rem;
+    }
+    #linkbutton:hover{
+        padding: 1rem;
+        color: var(--color2);
+        background-color: var(--color5);
+        border: solid 0.3rem var(--color2);
+        transition: 0.3s;
+        margin: -100% auto auto 10%;
+    }
+
+    #arrow, #arrowup{
+        margin: auto auto auto 10rem;
+        height: 1rem;
+    }
+    #arrow img, #arrowup img{
+        margin-top: 20rem;
+        width: 15rem;
+    }
+    #arrow img:hover, #arrowup img:hover{
+        padding-top: 0rem;
+    }
+
+    #home1{
+        margin: 0;
+        background-image: url("./img/admix_2_blackred2_P.png");
+    }
+    #home2{
+        background-image: url("./img/ADMIX_Toinnode1.jpg");
+        background-size: cover;
+        z-index: 100;
+    }
+    #home3{
+        background-image: url("./img/redtoblackwhite.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #history1{
+        background-image: url("./img/historyoftoinadmix.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #history2{
+        background-image: url("./img/DSC_0443~2.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #history3{
+        background-image: url("./img/kansai_robot.jpg");
+        background-size: cover;
+        z-index: 100;
+    }
+    #history4{
+        background-image: url("./img/DSC_1941.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #hard1{
+        background-image: url("./img/MyRobots3.png");
+        background-size: cover;
+        z-index: 100;
+    }
+    #hard2{
+        background-image: url("./img/GUSWt6tbgAAeh-E.jpg");
+        background-size: cover;
+        z-index: 100;
+    }
+    #hard3{
+        background-image: url("./img/makingrobots.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #soft1{
+        background-image: url("./img/DSC_14211.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #soft2{
+        background-image: url("./img/robotinthedark.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #links1{
+        background-image: url("./img/DSC_1404.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+    #links2{
+        background-image: url("./img/DSC_1377.JPG");
+        background-size: cover;
+        z-index: 100;
+    }
+}
+
+/* sns links */
 #sns img{
     position: fixed;
     width: 4rem;
@@ -246,6 +352,27 @@ a{
 #github{
     bottom: 7rem;
 }
+@media screen and (max-width: 1000px) {
+    #sns img{
+        position: fixed;
+        width: 8rem;
+        margin-left: 90%;
+    }
+    #x{
+        bottom: 55rem;
+    }
+    #youtube{
+        bottom: 40rem
+    }
+    #note{
+        bottom: 25rem;
+    }
+    #github{
+        bottom: 10rem;
+    }
+}
+
+/* footer */
 #bottom{
     background-color: var(--color1);
     color: var(--color2);
@@ -257,4 +384,12 @@ a{
     font-family: Serif;
     font-weight: bold;
     margin-top: -6rem;
+}
+@media screen and (max-width: 1000px){
+    #bottom{
+        height: 6rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-top: -10rem;
+    }
 }
