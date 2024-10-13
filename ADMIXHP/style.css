@@ -379,14 +379,14 @@ a{
         height: 1rem;
     }
     #arrow img, #arrowup img{
-        margin-top: 20rem;
+        margin-top: 15rem;
         width: 15rem;
     }
     #arrow img:hover{
         padding-top: 0rem;
     }
     #arrowup img:hover{
-        margin-top: 20rem;/*i dont know why but this prevents 'arroup' from jumping up*/
+        margin-top: 15rem;/*i dont know why but this prevents 'arroup' from jumping up*/
     }
 
     /* background images */
