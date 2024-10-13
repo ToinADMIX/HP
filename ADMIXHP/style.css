@@ -4,6 +4,12 @@ html{
     font-size: 62.5%;/*1rem=10px*/
     font-family: "Ubuntu";
     scroll-behavior: smooth;
+    --color1: #000000;/*black*/
+    --color2: #fff;/*white*/
+    --color3:#fe2323d5;/*red*/
+    --color4:#ad1390;/*admix*/
+    --color5:#00000096;/*black for background*/
+    --color6:#ffffff00;/*transparent*/
 }
 body{
     margin: 0;
@@ -11,7 +17,7 @@ body{
 }
 h1{
     margin: 0;
-    font-family: "Ubuntu";
+    font-family: Serif;
     font-weight: bolder;
     font-size: 5rem;
 }
@@ -19,49 +25,73 @@ p{
     margin: 0;
     font-size: 2rem;
     font-family: Serif;
-    line-height: 2.5;
+    line-height: 5rem;
 }
+a{
+    text-decoration: none;
+}
+/* .progBar{
+    width:400px;
+    height:50px;
+    background-color: var(--color2);
+    position:relative;
+    border-radius:0px;
+    overflow: hidden;
+}
+.progBar .bar{
+    position:absolute;
+    height:100%;
+    background-color: var(--color3);
+    animation: progress 3s normal;
+    animation-fill-mode: forwards;
+}
+@keyframes progress {
+    0% {width: 0}
+    100% {width: 100%}
+} */
 .menu{
     position: fixed;
     width: 100%;
-    margin-top: 0%;
-    background-color: #000000;
-    padding: 2%;
+    background-color: var(--color1);
+    padding: 4rem;
     margin-left: -1%;
 }
 .menu a p{
     float: left;
     width: 20%;
     text-align: center;
-    color: #fff;
+    color: var(--color2);
     font-size: 3rem;
     font-family: "Moon";
     transition: 0.3s;
-    line-height: 1;
+    line-height: 1rem;
+    font-weight: normal;
 }
 .menu a p:hover{
-    color: #fe2323d5;
+    color: var(--color3);
 }
 #thispage{
-    color: #fe2323d5;
+    color: var(--color3);
 }
 #thispage:hover{
-    color: #fff;
+    color: var(--color2);
 }
 .langbutton{
-    width: 3%;
+    width: 6rem;
     position: fixed;
-    margin: 5% auto auto 100%;
+    margin: 9rem auto auto 100%;
+    z-index: 999;
 }
 .langbutton p{
+    height: 5rem;
     width: 15rem;
-    color: #fff;
+    color: var(--color2);
     font-size: 2.5rem;
     text-align: center;
-    margin: auto auto auto -250%;
+    margin: auto auto auto -240%;
     font-family: Serif;
     font-weight: lighter;
-    background-color: #000000ac;
+    background-color: var(--color5);
 }
 #japan{
     margin-left: -220%;
@@ -70,20 +100,56 @@ p{
 .elements h1{
     padding-top: 8%;
     margin-left: 8%;
-    color: #ffffff;
+    font-weight: bold;
+    color: var(--color2);
 }
 .elements p{
-    color: #fff;
+    color: var(--color2);
     padding-top: 2%;
     margin-left: 9%;
     width: 25%;
-    font-weight: bold;
+    font-weight: normal;
+}
+#linkbutton{
+    position: absolute;
+    padding: 2rem;
+    text-align: center;
+    color: var(--color2);
+    background-color: var(--color5);
+    border: solid 0.3rem var(--color2);
+    transition: 0.3s;
+    margin: -35% auto auto 80%;
+}
+#linkbutton p{
+    font-family: Serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#linkbutton:hover{
+    color: var(--color1);
+    background-color: var(--color2);
+    border: solid 0.3rem var(--color2);
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+    transition: 0.3s;
 }
 #arrow{
-    margin: 0 auto auto 10%;
+    margin: auto auto auto 15rem;
+    height: 1rem;
+}
+#arrow img, #arrowup{
+    transition: 0.3s;
+}
+#arrow img:hover{
+    padding-top: 1rem;
+    transition: 0.3s;
+}
+#arrowup:hover{
+    margin-top: -2rem;
+    transition: 0.3s;
 }
 #bgcolor{
-    background: linear-gradient(90deg, #00000096, #ffffff00);
+    background: linear-gradient(90deg, var(--color5), var(--color6));
     background-size: cover;
     z-index: 110;
     height: 100%;
@@ -169,24 +235,26 @@ p{
     margin-left: 96%;
 }
 #x{
-    bottom: 36rem;
+    bottom: 31rem;
 }
 #youtube{
-    bottom: 28rem
+    bottom: 23rem
 }
 #note{
-    bottom: 20rem;
+    bottom: 15rem;
 }
 #github{
-    bottom: 12rem;
+    bottom: 7rem;
 }
 #bottom{
-    background-color: #000000;
-    color: #efefef;
-    height: 6rem;
+    background-color: var(--color1);
+    color: var(--color2);
+    height: 4rem;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
     font-family: Serif;
     font-weight: bold;
+    margin-top: -6rem;
 }
