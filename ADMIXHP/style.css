@@ -130,19 +130,19 @@ a{
     transition: 0.3s;
 }
 
-#arrow{
+#arrow, #arrowup{
     margin: auto auto auto 15rem;
     height: 1rem;
 }
-#arrow img, #arrowup{
+#arrow img, #arrowup img{
     transition: 0.3s;
 }
 #arrow img:hover{
     padding-top: 1rem;
     transition: 0.3s;
 }
-#arrowup:hover{
-    margin-top: -2rem;
+#arrowup img:hover{
+    margin-top: -1rem;
     transition: 0.3s;
 }
 
