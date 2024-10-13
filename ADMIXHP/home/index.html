@@ -10,6 +10,8 @@
         <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2666677/OrbitControls.js'></script>
     </head>
     <body style="background-color:#ffffff;">
+        <!-- forPC -->
+        <!-- menu bar -->
         <header class="menu" style="z-index:101;">
             <a href="../home"><p id="thispage">HOME</p></a>
             <a href="../history"><p id="history">HISTORY</p></a>
@@ -18,56 +20,81 @@
             <a href="../links"><p id="links">LINKS</p></a>
         </header>
 
+        <!-- language change button -->
         <div class="langbutton">
             <p id="langbuttonp">Language</p>
             <img src="../img/japan_icon.png" width="100%" onclick="langjahome()" id="japan">
             <img src="../img/USA_icon.png" width="100%" onclick="langenhome()">
-            <script src="../script.js"></script>
         </div>
 
-        <div class="main">
-            <section class="elements" class="home" id="home1">
-                <div id="bgcolor">
-                    <h1 id="home1h1">Toin ADMIX</h1>
-                    <p id="home1p">
-                        Toin ADMIX is a team which is participating in<br>RCJ Soccer Lightweight league.<br>
-                        Its goal is to get the 1st prize in the world cup.
-                    </p>
-                    <a href="#home2" id="arrow"><img src="../img/arrow1.png" width="6%"></a>
-                </div>
-            </section>
-            <a href="https://junior.robocup.org/" id="linkbutton"><p id="homelinkbutton1">What RCJ is ></p></a>
+        <!-- for phone -->
+        <a href="../home" id="tohome"><img src="../img/ADMIX_LOGO.png" width="5%"></a>
+        <div class="open"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+            <div class="g-nav-list">
+                <ul>
+                    <li><a href="../home" id="thispage_P">HOME</a></li>
+                    <li><a href="../history">HISTORY</a></li>
+                    <li><a href="../hard">HARD</a></li>
+                    <li><a href="../soft">SOFT</a></li>
+                    <li><a href="../links">LINKS</a></li>
+                </ul>
+            </div>
+        </nav>
 
-            <section class="elements" class="home" id="home2">
-                <div id="bgcolor">
-                    <h1 id="home2h1">Who Are We ?</h1>
-                    <p id="home2p">
-                        3 high school students are consisting Toin ADMIX.<br>
-                    </p>
-                    <a href="#home3" id="arrow"><img src="../img/arrow1.png" width="6%"></a>
-                </div>
-            </section>
-            <a href="https://www.toin-h.wakayama-c.ed.jp/" id="linkbutton"><p id="homelinkbutton2">Toin High School ></p></a>
+        <!-- contents -->
+        <!-- "Toin ADMIX" -->
+        <section class="elements" class="home" id="home1">
+            <div id="bgcolor">
+                <h1 id="home1h1">Toin ADMIX</h1>
+                <p id="home1p">
+                    Toin ADMIX is a team which is participating in<br>RCJ Soccer Lightweight league.<br>
+                    Its goal is to get the 1st prize in the world cup.
+                </p>
+                <a href="#home2" id="arrow"><img src="../img/arrow1.png" width="6%"></a>
+            </div>
+        </section>
+        <a href="https://junior.robocup.org/" id="linkbutton"><p id="homelinkbutton1">What RCJ is ></p></a>
 
-            <section class="elements" class="home" id="home3">
-                <div id="bgcolor">
-                    <h1 id="home3h1">What Do We Do ?</h1>
-                    <p id="home3p">
-                        We divide roles to designing, implemantation, and programming.
-                    </p>
-                    <a href="#home1" id="arrowup"><img src="../img/arrow2.png" width="6%"></a>
-                </div>
-            </section>
-        </div>
+        <!-- "Who Are We ?" -->
+        <section class="elements" class="home" id="home2">
+            <div id="bgcolor">
+                <h1 id="home2h1">Who Are We ?</h1>
+                <p id="home2p">
+                    3 high school students are consisting Toin ADMIX.<br>
+                </p>
+                <a href="#home3" id="arrow"><img src="../img/arrow1.png" width="6%"></a>
+            </div>
+        </section>
+        <a href="https://www.toin-h.wakayama-c.ed.jp/" id="linkbutton"><p id="homelinkbutton2">Toin High School ></p></a>
 
+        <!-- "What Do We Do ?" -->
+        <section class="elements" class="home" id="home3">
+            <div id="bgcolor">
+                <h1 id="home3h1">What Do We Do ?</h1>
+                <p id="home3p">
+                    We divide roles to designing, implemantation, and programming.
+                </p>
+                <a href="#home1" id="arrowup"><img src="../img/arrow2.png" width="6%"></a>
+            </div>
+        </section>
+
+        <!-- sns links -->
         <div id="sns">
             <a href="https://x.com/AdmixToin476"><img src="../img/x_icon_white.png" width="100%" id="x"></a>
             <a href="https://www.youtube.com/@ToinADMIX"><img src="../img/youtube_icon_white.png" width="100%" id="youtube"></a>
             <a href="https://note.com/admix_toin/"><img src="../img/note_icon.jpg" width="100%" id="note"></a>
             <a href="https://github.com/ToinADMIX/ADMIXData"><img src="../img/github_icon_white.png" width="100%" id="github"></a>
         </div>
+
+        <!-- footer -->
         <footer id="bottom">
             <p>© 2024 Toin ADMIX</p>
         </footer>
+
+        <!-- js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="js/5-1-11.js"></script>
+        <script src="../script.js"></script>
     </body>
 </html>

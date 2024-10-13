@@ -1,3 +1,13 @@
+
+$(".open").click(function() {
+    $(this).toggleClass('active');
+    $("#g-nav").toggleClass('panelactive');
+});
+$("#g-nav a").click(function(){
+    $(".open").removeClass('active');
+    $("#g-nav").removeClass('panelactive');
+})
+
 function langjahome(){
     langbuttonp.innerHTML = "言語";
 	home1h1.innerHTML = "桐蔭 アドミックス";

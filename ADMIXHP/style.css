@@ -41,7 +41,13 @@ a{
     }
 }
 
+/* for PC */
 /* menu bar */
+@media screen and (min-width: 1000px) {
+    .open, #g-nav{
+        display:none;
+    }
+}
 .menu{
     position: fixed;
     width: 100%;
@@ -63,12 +69,14 @@ a{
 .menu a p:hover{
     color: var(--color3);
 }
-#thispage{
+#thispage, #thispage_P{
     color: var(--color3);
 }
 #thispage:hover{
     color: var(--color2);
 }
+
+/* language change button */
 .langbutton{
     width: 6rem;
     position: fixed;
@@ -91,7 +99,113 @@ a{
     margin-right: 10%;
 }
 
+/* for phone */
+@media screen and (max-width: 1000px) {
+    /* menu bar */
+    .menu, .langbutton{
+        display: none;
+    }
+    #tohome{
+        position: fixed;
+        margin: 5% auto auto 5%;
+        z-index: 9999;
+    }
+    #tohome img{
+        width: 10rem;
+    }
+    .open{
+        position: fixed;
+        z-index: 99999;
+        cursor: pointer;
+        width: 20rem;
+        margin: 7% auto auto 82%;
+    }
+    .open span{
+        z-index: 999;
+        display: inline-block;
+        transition: all 0.3s;
+        position: absolute;
+        height: 0.7rem;
+        border-radius: 0rem;
+        background-color: var(--color3);
+        width:50%;
+    }
+    .open span:nth-of-type(1){
+        top: 1rem;
+    }
+    .open span:nth-of-type(2){
+        display: none;
+        top: 35px;
+    }
+    .open span:nth-of-type(3){
+        top: 5rem;
+    }
+    .open.active span:nth-of-type(1){
+        top: 1.8rem;
+        transform: translateY(0.6rem) rotate(-45deg);
+        width: 50%;
+    }
+    .open.active span:nth-of-type(2){
+        opacity: 0;
+    }
+    .open.active span:nth-of-type(3){
+        top: 3rem;
+        transform: translateY(-0.6rem) rotate(45deg);
+        width: 50%;
+    }
+    #g-nav.panelactive #g-nav-list{
+        position: fixed;
+        z-index: 9999999;
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+        -webkit-overflow-scoroling: touch;
+    }
+    #g-nav ul{
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    nav ul{
+        z-index: 999;
+        list-style: none;
+        text-align: center;
+    }
+    nav ul li a{
+        z-index: 999;
+        display: inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        line-height: 200%;
+    }
+    #g-nav{
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--color1);
+        transition: all 0.6s;
+    }
+    #g-nav.panelactive{
+        right: 0;
+    }
+    .g-nav-list ul li a{
+        color: var(--color2);
+        font-size: 10rem;
+        text-align: center;
+        transition: 0.3s;
+        width: 100%;
+        font-family: "Moon";
+        font-weight: normal;
+    }
+}
+
 /* contents */
+/* sentence */
 .elements h1{
     padding-top: 8%;
     margin-left: 8%;
@@ -106,6 +220,7 @@ a{
     font-weight: normal;
 }
 
+/* button to jump link */
 #linkbutton{
     position: absolute;
     padding: 2rem;
@@ -130,6 +245,7 @@ a{
     transition: 0.3s;
 }
 
+/* arrow to scroll */
 #arrow, #arrowup{
     margin: auto auto auto 15rem;
     height: 1rem;
@@ -146,6 +262,7 @@ a{
     transition: 0.3s;
 }
 
+/* background to make it easier to read */
 #bgcolor{
     background: linear-gradient(90deg, var(--color5), var(--color6));
     background-size: cover;
@@ -153,6 +270,7 @@ a{
     height: 100%;
 }
 
+/* background images */
 #home1p, #home2p, #home3p, #history1p, #history2p, #history3p, #history4p, #hard1p, #hard2p, #hard3p, #soft1p, #soft2p, #links1p, #links2p{
     height: 55%;
 }
@@ -227,9 +345,12 @@ a{
     background-size: cover;
     z-index: 100;
 }
+
 @media screen and (max-width: 1000px) {
+    /* contents */
+    /* sentence */
     .elements h1{
-        padding-top: 20%;
+        padding-top: 25%;
         margin-left:10%;
     }
     .elements p{
@@ -238,8 +359,9 @@ a{
         width: 50%;
     }
 
+    /* button to jump link */
     #linkbutton{
-        margin: -100% auto auto 10%;
+        margin: -90% auto auto 10%;
         padding: 1rem;
     }
     #linkbutton:hover{
@@ -251,6 +373,7 @@ a{
         margin: -100% auto auto 10%;
     }
 
+    /* arrow to scroll */
     #arrow, #arrowup{
         margin: auto auto auto 10rem;
         height: 1rem;
@@ -265,72 +388,74 @@ a{
     #arrowup img:hover{
         margin-top: 20rem;/*i dont know why but this prevents 'arroup' from jumping up*/
     }
+
+    /* background images */
     #home1{
         margin: 0;
         background-image: url("./img/admix_2_blackred2_P.png");
     }
     #home2{
-        background-image: url("./img/ADMIX_Toinnode1.jpg");
+        background-image: url("./img/ADMIX_Toinnode1_P.jpg");
         background-size: cover;
         z-index: 100;
     }
     #home3{
-        background-image: url("./img/redtoblackwhite.JPG");
+        background-image: url("./img/redtoblackwhite_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history1{
-        background-image: url("./img/historyoftoinadmix.JPG");
+        background-image: url("./img/historyoftoinadmix_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history2{
-        background-image: url("./img/DSC_0443~2.JPG");
+        background-image: url("./img/DSC_0443~2_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history3{
-        background-image: url("./img/kansai_robot.jpg");
+        background-image: url("./img/kansai_robot_P.jpg");
         background-size: cover;
         z-index: 100;
     }
     #history4{
-        background-image: url("./img/DSC_1941.JPG");
+        background-image: url("./img/DSC_1941_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #hard1{
-        background-image: url("./img/MyRobots3.png");
+        background-image: url("./img/MyRobots3_P.png");
         background-size: cover;
         z-index: 100;
     }
     #hard2{
-        background-image: url("./img/GUSWt6tbgAAeh-E.jpg");
+        background-image: url("./img/GUSWt6tbgAAeh-E_P.jpg");
         background-size: cover;
         z-index: 100;
     }
     #hard3{
-        background-image: url("./img/makingrobots.JPG");
+        background-image: url("./img/makingrobots_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #soft1{
-        background-image: url("./img/DSC_14211.JPG");
+        background-image: url("./img/DSC_14211_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #soft2{
-        background-image: url("./img/robotinthedark.JPG");
+        background-image: url("./img/robotinthedark_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #links1{
-        background-image: url("./img/DSC_1404.JPG");
+        background-image: url("./img/DSC_1404_P.JPG");
         background-size: cover;
         z-index: 100;
     }
     #links2{
-        background-image: url("./img/DSC_1377.JPG");
+        background-image: url("./img/DSC_1377_P.JPG");
         background-size: cover;
         z-index: 100;
     }
@@ -355,6 +480,7 @@ a{
     bottom: 7rem;
 }
 @media screen and (max-width: 1000px) {
+    /* sns links */
     #sns img{
         position: fixed;
         width: 8rem;
@@ -388,6 +514,7 @@ a{
     margin-top: -6rem;
 }
 @media screen and (max-width: 1000px){
+    /* footer */
     #bottom{
         height: 6rem;
         padding-top: 2rem;
