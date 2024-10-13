@@ -10,10 +10,10 @@ $("#g-nav a").click(function(){
 
 function langjahome(){
     langbuttonp.innerHTML = "言語";
-	home1h1.innerHTML = "桐蔭 アドミックス";
-	home1p.innerHTML = "桐蔭 アドミックスは、RCJ サッカーライトウェイト競技に参加しているチームです。<br>目標は、世界大会で1位を取ることです。";
+	home1h1.innerHTML = "桐蔭 ADMIX";
+	home1p.innerHTML = "桐蔭 ADMIXは、RCJ サッカーライトウェイト競技に参加しているチームです。<br>目標は、世界大会で1位を取ることです。";
 	home2h1.innerHTML = "私たちは誰？";
-	home2p.innerHTML = "桐蔭 アドミックスは3人の高校生で<br>構成されています。";
+	home2p.innerHTML = "桐蔭 ADMIXは3人の高校生で<br>構成されています。";
 	home3h1.innerHTML = "私たちは何をしている？";
 	home3p.innerHTML = "私たちは役割を設計、実装、プログラミングに<br>分担しています。";
     homelinkbutton1.innerHTML = "RCJとは >";
@@ -32,8 +32,8 @@ function langenhome(){
 }
 function langjahistory(){
     langbuttonp.innerHTML = "言語";
-    history1h1.innerHTML = "桐蔭デラックス + 桐蔭イーエックス = ?";
-    history1p.innerHTML = "2つのビギナーズチームが合体し、<br>桐蔭 アドミックスが誕生した...";
+    history1h1.innerHTML = "DX + EX = ?";
+    history1p.innerHTML = "2つのビギナーズチーム、桐蔭DXと桐蔭EXが合体し、<br>桐蔭 ADMIXが誕生した...";
     history2h1.innerHTML = "2022 - 2023";
     history2p.innerHTML = "私たちのライトウェイト1年目。<br>関西ブロックで敗北し全国大会に出場することは<br>できませんでした。";
     history3h1.innerHTML = "2023  - 2024";
@@ -47,7 +47,7 @@ function langjahistory(){
 function langenhistory(){
     langbuttonp.innerHTML = "Language";
     history1h1.innerHTML = "Toin DX + Toin EX = ?";
-    history1p.innerHTML = "Two teams of Beginners has got together,<br>and Toin ADIMIX was born...";
+    history1p.innerHTML = "Two teams of Beginners, Toin DX and Toin EX,<br>has got together, and Toin ADIMIX was born...";
     history2h1.innerHTML = "2022 - 2023";
     history2p.innerHTML = "Our first year of participating in Lightweight League.<br>We lost Kansai Block and couldn't go to Japan Open.";
     history3h1.innerHTML = "2023 - 2024";
@@ -61,7 +61,7 @@ function langenhistory(){
 function langjahard(){
     langbuttonp.innerHTML = "言語"
 	hard1h1.innerHTML = "設計";
-	hard1p.innerHTML = "私たちはフュージョン 360とキーキャドを使って<br>ロボットを設計しています。";
+	hard1p.innerHTML = "私たちはFusion 360とKiCadを使って<br>ロボットを設計しています。";
 	hard2h1.innerHTML = "はんだ";
 	hard2p.innerHTML = "熟練のメンバーが部品をはんだしているので、<br>私たちは接触不良に悩まされることはありません。";
 	hard3h1.innerHTML = "点検";
@@ -83,7 +83,7 @@ function langenhard(){
 function langjasoft(){
     langbuttonp.innerHTML = "言語"
 	soft1h1.innerHTML = "プログラミング";
-	soft1p.innerHTML = "私たちはプログラムを書き、<br>ロボットに書き込むために<br>アルディーノアイディーイーや<br>シースタイルフォーティージェースリービーを<br>使っています。";
+	soft1p.innerHTML = "私たちはプログラムを書き、<br>ロボットに書き込むために<br>Arduino IDEやC-Style for TJ3Bを<br>使っています。";
 	soft2h1.innerHTML = "二重チェック";
 	soft2p.innerHTML = "1人がプログラムを書き終わったら、もう一人が<br>それを確認することで、バグを減らして<br>より良いものに変えていくことができます。";
     softlinkbutton1.innerHTML = "動画 >"
@@ -101,9 +101,9 @@ function langjalinks(){
 	links1h1.innerHTML = "SNS";
 	links1p.innerHTML = "私たちは他のロボカッパー達と情報交換を<br>したいと思っています。<br>Xやブログで自分たちの情報を<br>発信しています。";
 	links2h1.innerHTML = "情報共有";
-	links2p.innerHTML = "ギットハブで設計やプログラムを公開しています。";
+	links2p.innerHTML = "GitHubで設計やプログラムを公開しています。";
     linkslinkbutton1.innerHTML = "X >";
-    linkslinkbutton2.innerHTML = "ギットハブ >";
+    linkslinkbutton2.innerHTML = "Github >";
 }
 function langenlinks(){
     langbuttonp.innerHTML = "Language"
