@@ -288,7 +288,7 @@ a{
 }
 #home1{
     margin: 0;
-    background-image: url("./img/admix_2_blackred2.png");
+    background-image: url("./img/admix_2_blackred2_M.png");
     background-size: cover;
     z-index: 100;
 }
@@ -373,7 +373,8 @@ a{
 
     /* button to jump link */
     #linkbutton{
-        margin: -90% auto auto 10%;
+        margin: -9
+        0% auto auto 10%;
         padding: 1rem;
     }
     #linkbutton:hover{
@@ -404,7 +405,7 @@ a{
     /* background images */
     #home1{
         margin: 0;
-        background-image: url("./img/admix_2_blackred2_P.png");
+        background-image: url("./img/admix_2_blackred2_P_M.png");
     }
     #home2{
         background-image: url("./img/ADMIX_Toinnode1_P.jpg");
