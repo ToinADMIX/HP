@@ -373,8 +373,7 @@ a{
 
     /* button to jump link */
     #linkbutton{
-        margin: -9
-        0% auto auto 10%;
+        margin: -90% auto auto 10%;
         padding: 1rem;
     }
     #linkbutton:hover{
