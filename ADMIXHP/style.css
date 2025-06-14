@@ -318,12 +318,12 @@ a{
     z-index: 100;
 }
 #history4{
-    background-image: url("./img/DSC_1941.JPG");
+    background-image: url("./img/DSC_2470.JPG");
     background-size: cover;
     z-index: 100;
 }
 #hard1{
-    background-image: url("./img/MyRobots3.png");
+    background-image: url("./img/MyRobots1.png");
     background-size: cover;
     z-index: 100;
 }
@@ -353,7 +353,7 @@ a{
     z-index: 100;
 }
 #links2{
-    background-image: url("./img/DSC_1377.JPG");
+    background-image: url("./img/IMG_3044.jpg");
     background-size: cover;
     z-index: 100;
 }
@@ -404,70 +404,70 @@ a{
     /* background images */
     #home1{
         margin: 0;
-        background-image: url("./img/admix_2_blackred2_P_M.png");
+        background-image: url("./img/P_admix_2_blackred2.png");
     }
     #home2{
-        background-image: url("./img/ADMIX_Toinnode1_P.jpg");
+        background-image: url("./img/P_ADMIX_Toinnode1.jpg");
         background-size: cover;
         z-index: 100;
     }
     #home3{
-        background-image: url("./img/redtoblackwhite_P.JPG");
+        background-image: url("./img/P_redtoblackwhite.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history1{
-        background-image: url("./img/historyoftoinadmix_P.JPG");
+        background-image: url("./img/P_historyoftoinadmix.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history2{
-        background-image: url("./img/DSC_0443~2_P.JPG");
+        background-image: url("./img/P_DSC_0443~2.JPG");
         background-size: cover;
         z-index: 100;
     }
     #history3{
-        background-image: url("./img/kansai_robot_P.jpg");
+        background-image: url("./img/P_kansai_robot.jpg");
         background-size: cover;
         z-index: 100;
     }
     #history4{
-        background-image: url("./img/DSC_1941_P.JPG");
+        background-image: url("./img/P_DSC_2470.JPG");
         background-size: cover;
         z-index: 100;
     }
     #hard1{
-        background-image: url("./img/MyRobots3_P.png");
+        background-image: url("./img/P_MyRobots1.png");
         background-size: cover;
         z-index: 100;
     }
     #hard2{
-        background-image: url("./img/GUSWt6tbgAAeh-E_P.jpg");
+        background-image: url("./img/P_GUSWt6tbgAAeh-E.jpg");
         background-size: cover;
         z-index: 100;
     }
     #hard3{
-        background-image: url("./img/makingrobots_P.JPG");
+        background-image: url("./img/P_makingrobots.JPG");
         background-size: cover;
         z-index: 100;
     }
     #soft1{
-        background-image: url("./img/DSC_14211_P.JPG");
+        background-image: url("./img/P_DSC_1421.jpg");
         background-size: cover;
         z-index: 100;
     }
     #soft2{
-        background-image: url("./img/robotinthedark_P.JPG");
+        background-image: url("./img/P_robotinthedark.JPG");
         background-size: cover;
         z-index: 100;
     }
     #links1{
-        background-image: url("./img/DSC_1404_P.JPG");
+        background-image: url("./img/P_DSC_1404.JPG");
         background-size: cover;
         z-index: 100;
     }
     #links2{
-        background-image: url("./img/DSC_1377_P.JPG");
+        background-image: url("./img/P_IMG_3044.jpg");
         background-size: cover;
         z-index: 100;
     }
@@ -523,7 +523,7 @@ a{
     font-size: 2rem;
     font-family: Serif;
     font-weight: bold;
-    margin-top: -6rem;
+    margin-top: -5rem;
 }
 @media screen and (max-width: 1000px){
     /* footer */
